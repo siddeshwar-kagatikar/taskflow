@@ -1,0 +1,115 @@
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index:-1;
+}
+
+.hero-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain; 
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+.hero-container > h4 {
+    color: #ef6d16;
+    font-size: 100px;
+    margin-top: 100px;
+}
+
+.hero-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','lucida Sans',Arial,sans-serif;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+    position:absolute;
+    z-index:-1;
+}
+
+.hero-container1{
+    height: 30vh;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain; 
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+   z-index:1; 
+}
+
+.hero-container1 h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #fff;
+}
+.hero-container1 p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: -1%;
+    margin-left: -9.8%;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color:aliceblue
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.hero-container1{
+    font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+}
