@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 0.00001s linear;
   }
 }
 
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.list-item{
+  cursor: move;
+  background-color: #61dafb;
+}
+
+.col{
+  background-color: #61dafb;
+}
+
+i{
+  cursor: pointer;
+}
+.fa-regular{
+  color: aliceblue;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+.form-label{
+  color: aliceblue;
+}
+.modal {
+  left:25%;
+  top:15%;
+}
+
+.navbar-brand{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
 }
