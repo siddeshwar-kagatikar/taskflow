@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from "react-router-dom";
-import '../App.css'
+import './login.css'
+// import img from './workmanagement.png'
 
 export default function Login() {
 
@@ -36,7 +37,7 @@ export default function Login() {
 
 
     return (
-        <div>
+        <div className='wrapper'>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email address</label>

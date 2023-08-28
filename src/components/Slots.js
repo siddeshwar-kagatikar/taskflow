@@ -3,18 +3,16 @@ import { useContext } from 'react'
 import slotContext from '../context/slots/slotContext'
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import './list.css'
+import './login.css'
 import Dropdown from "./Dropdown";
 import Description from "./Description";
 import Calendar from "./Calendar";
 import Delete from "./Delete";
 import CreateSlot from "./CreateSlot";
-// import Logout from "./Logout";
 import Priority from "./Priority";
 import Title from "./Title";
 import Daysleft from "./Daysleft";
 import Showtitle from "./Showtitle";
-// import { setDefaultLocale } from "react-datepicker";
-// import Table from "./Table";
 
 
 const Slots = () => {
