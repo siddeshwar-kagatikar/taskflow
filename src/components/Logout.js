@@ -8,7 +8,7 @@ export default function Logout() {
         navigate("/");
     }
   return (
-    <div>
+    <div className='mx-3'>
       <button type="button" className="btn btn-danger" onClick={handlelogout}>Logout</button>
     </div>
   )

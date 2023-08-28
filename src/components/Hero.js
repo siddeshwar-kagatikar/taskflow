@@ -3,7 +3,7 @@ import './HeroSection.css'
 import video from './time.mp4'
 import img from './black.jpg'
 // import Footer from './Footer'
-
+import './login.css'
 
 export default function Home() {
   return (

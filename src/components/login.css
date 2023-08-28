@@ -5,6 +5,11 @@ body {
     background-size: cover;
     height:max-content;
     min-height: 100vh;
+    /* min-width: 00vh; */
+}
+
+.hero-container{
+    margin-top: -10vh;
 }
 
 
